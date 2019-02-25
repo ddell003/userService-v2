@@ -2,7 +2,7 @@
 
 https://laravel.com/docs/5.7/installation
 
-## Set up
+## Set up - Backend
 
 1. Once you clone down the project look to see if you have .env if you dont run 
 `cp .env-example .env`
@@ -19,3 +19,11 @@ php artisan user:create --first_name=Parker --last_name=Dell --email=parkerdell9
 php artisan user:random --count=10
 
 ```
+## Set up - Frontend
+
+1. run ```npm install```
+2. Compiling javascript: 
+* Local: ```npm run dev```
+* if making a lot of style changes and need to see live update: ```npm run watch```
+* production: ```npm run production```
+    
