@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/users', 'UserController@index')->name('index');
+Route::get('/beverages', 'BeverageController@index')->name('index');
 
 Auth::routes();
 

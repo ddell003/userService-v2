@@ -29,6 +29,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{URL::to('users')}}">Users</a>
                 </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{URL::to('beverages')}}">Caffeinator</a>
+                    </li>
 
             </ul>
 

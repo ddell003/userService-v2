@@ -28,6 +28,7 @@ window.axios.defaults.headers.common = {
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('user', require('./components/User.vue').default);
+Vue.component('beverages', require('./components/Beverages.vue').default);
 Vue.component('user-table', require('./components/UserTable.vue').default);
 
 
