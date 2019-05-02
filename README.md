@@ -1,5 +1,12 @@
 # userService-v2
-## Running Locally 
+### Running Locally 
+#### Mac
+ ```
+   php artisan serve
+   php artisan migrate
+   npm run dev
+ ```
+ (docker container coming soon)
 ### Commands
 #### Generate Random Users:
  ```
